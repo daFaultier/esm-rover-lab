@@ -102,11 +102,11 @@ class configureScenario:
 		self.pixels_target_tolerance = pixels_target_tolerance			
 		
 class configureAWS:
-	host = 'a1prakypc0tikc-ats.iot.eu-central-1.amazonaws.com' # set here your end-point
-	rootCAPath = 'root-ca-cert.pem'
-	certificatePath = '2a0f81fd6e.cert.pem'  #update to the name of your certificate
-	privateKeyPath = '2a0f81fd6e.private.key'  #update to the name of your certificate
-	clientId =  ' esp_arduino'  # set your thing name
+	host = 'a2uwxc1kq3rlzl-ats.iot.us-east-1.amazonaws.com' # set here your end-point
+	rootCAPath = './CameraBeepBoop/AmazonRootCA1.pem'
+	certificatePath = './CameraBeepBoop/cameera-certificate.pem.crt'  #update to the name of your certificate
+	privateKeyPath = './CameraBeepBoop/camera-private.pem.key'  #update to the name of your certificate
+	clientId =  'CameraBeepBoop'  # set your thing name
 	topic_rover = 'esp32/rover'
 	topic_target = 'esp32/target'
 	#port=8883
