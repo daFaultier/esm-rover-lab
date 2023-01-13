@@ -104,7 +104,7 @@ class configureScenario:
 class configureAWS:
 	host = 'a2uwxc1kq3rlzl-ats.iot.us-east-1.amazonaws.com' # set here your end-point
 	rootCAPath = './CameraBeepBoop/AmazonRootCA1.pem'
-	certificatePath = './CameraBeepBoop/cameera-certificate.pem.crt'  #update to the name of your certificate
+	certificatePath = './CameraBeepBoop/camera-certificate.pem.crt'  #update to the name of your certificate
 	privateKeyPath = './CameraBeepBoop/camera-private.pem.key'  #update to the name of your certificate
 	clientId =  'CameraBeepBoop'  # set your thing name
 	topic_rover = 'esp32/rover'
