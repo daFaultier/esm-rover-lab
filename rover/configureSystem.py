@@ -102,10 +102,10 @@ class configureScenario:
 		self.pixels_target_tolerance = pixels_target_tolerance			
 		
 class configureAWS:
-	host = 'a2uwxc1kq3rlzl-ats.iot.us-east-1.amazonaws.com' # set here your end-point
-	rootCAPath = './Localization/AmazonRootCA1.pem'
-	certificatePath = './Localization/local-certificate.pem.crt'  #update to the name of your certificate
-	privateKeyPath = './Localization/local-private.pem.key'  #update to the name of your certificate
+	host = 'avb6i8gas5stv-ats.iot.us-east-1.amazonaws.com' # set here your end-point
+	rootCAPath = './ian/AmazonRootCA1.pem'
+	certificatePath = './ian/ian-cam-certificate.pem.crt'  #update to the name of your certificate
+	privateKeyPath = './ian/ian-cam-private.pem.key'  #update to the name of your certificate
 	clientId =  'Localization'  # set your thing name
 	topic_rover = 'esp32/rover'
 	topic_target = 'esp32/target'
