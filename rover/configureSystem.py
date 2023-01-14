@@ -13,8 +13,8 @@ class configureCamera:
 
 	camera_path ='/home/rover-lab/Desktop/rover/exampleCamera.yml'
 	out_path ='/home/rover-lab/Desktop/rover//image_test.jpg'
-	camera_width=640 #1280x720 or 640x360
-	camera_height=360 #720 
+	camera_width=1280 #1280x720 or 640x360
+	camera_height=720 #720 
 	def __init__(self, camera_resource=0):
 		self.__camera_resource = camera_resource
 		
