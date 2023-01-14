@@ -106,7 +106,7 @@ class configureAWS:
 	rootCAPath = './ian/AmazonRootCA1.pem'
 	certificatePath = './ian/ian-cam-certificate.pem.crt'  #update to the name of your certificate
 	privateKeyPath = './ian/ian-cam-private.pem.key'  #update to the name of your certificate
-	clientId =  'Localization'  # set your thing name
+	clientId =  'MyNewCamera'  # set your thing name
 	topic_rover = 'esp32/rover'
 	topic_target = 'esp32/target'
 	#port=8883
